@@ -289,10 +289,12 @@ form div input{
     width: 400px;
 }
 
-form div input , .email, .name, .message{
-    margin-bottom: 20px;
-    font-size: 17px;
-    padding-left: 5px;
+form .email,
+form .name,
+form .message {
+  margin-bottom: 20px;
+  font-size: 17px;
+  padding-left: 5px;
 }
 
 .form-btn{
