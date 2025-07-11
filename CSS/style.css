@@ -12,7 +12,7 @@ body{
 
 header{
     text-align: center;
-    background-image: url(Hero-bg.png);
+    background-image: url(../Assets/Hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
@@ -71,8 +71,8 @@ a{
 
 
 .action-texts h3{
-    font-weight: 600;
-    font-size: 25px;
+    font-weight: 800;
+    font-size: 40px;
 
 }
 
@@ -81,8 +81,9 @@ a{
 }
 
 .action-texts p{
-    margin-bottom: 10px;
-    font-weight: 100;
+    margin:29px 0;
+    font-weight: 250;
+    font-size: 20px;
 }
 
 .action-texts a{
@@ -91,7 +92,7 @@ a{
     border: 2px solid #4E47FF;
     border-radius:10px;
     box-shadow: 0 0 8px #4E47FF;
-    font-size:10px;
+    font-size: 20px;
     padding: 8px 28px;
     /* margin-top: 10px; */
 }
@@ -105,8 +106,8 @@ a{
 
 .action-image img{
     border-radius: 40px;
-    width: 280px;
-    height: 220px;
+    width: 400px;
+    height: 280px;
 }
 
 .user{
