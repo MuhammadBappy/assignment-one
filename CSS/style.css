@@ -7,6 +7,7 @@
 
 body{
         font-family: raleway, sans-serif;
+        background-color: rgb(245, 253, 255);
 
 }
 
@@ -42,9 +43,14 @@ a{
     background-color: #4E47FF;
     color: white;
     border: 2px solid #4E47FF;
-    box-shadow: 0 0 8px #4E47FF;
     border-radius: 10px;
+    transition: .5s;
 }
+
+.sign-btn:hover{
+    box-shadow: 0 0 8px #4E47FF;
+}
+
 
 .header-contents{
     margin-top: 100px;
@@ -121,9 +127,9 @@ a{
 }
 
 .user-h3{
-    margin-bottom:20px ;
-    font-weight: 600;
-    font-size: 22px;
+    margin-bottom:30px ;
+    font-weight: lighter;
+    font-size: 35px;
 }
 
 .user-nmbrs{
@@ -134,14 +140,25 @@ a{
 .user-nmbrs h2{
     font-family: 'Times New Roman', Times, serif;
     color: #4E47FF;
-    font-size: 65px;
+    font-size: 70px;
     font-weight: bold;
 }
 
 .user-nmbrs p{
-    font-weight: 100;
+    font-weight: 300;
     color: black;
 }
+
+.lovers h4{
+    margin: 20px 0 6px;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.lovers p{
+    margin-bottom: 17px;
+}
+
 
 .reviews{
     margin: 70px 116px;
@@ -149,26 +166,41 @@ a{
     margin-top:70px;
 }
 
-.reviews h3{
-    font-weight: 600;
-    font-size: 25px;
-}
-
 .first-review{
-    padding: 10px;
+    padding: 20px;
     box-shadow: 0 0 10px #4E47FF;
     border-radius: 10px;
     text-align: left;
+}
+
+
+
+.review-with-star{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.reviews h3{
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 33px;
 }
 
 .reviewer-details{
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
-.review-with-star{
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
+.details h5{
+    font-size: 19px;
+    color: #625B71;
+    font-weight: 800;
+}
+
+.details {
+    color: #757575;
 }
