@@ -313,7 +313,7 @@ form .message {
     transition: .5s;
 }
 
-.form-btn a:hover{
+.form-btn button:hover{
     box-shadow: 0 0 10px #4E47FF;
 }
 
