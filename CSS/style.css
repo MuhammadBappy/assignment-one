@@ -289,7 +289,7 @@ form div input{
     width: 400px;
 }
 
-font div input , .email, .name, .message{
+form div input , .email, .name, .message{
     margin-bottom: 20px;
     font-size: 17px;
     padding-left: 5px;
@@ -300,11 +300,12 @@ font div input , .email, .name, .message{
     text-align: center;
 }
 
-.form-btn a{
+.form-btn button{
     background: #4E47FF;
     color: white;
     font-size: 17px;
     padding: 10px 0;
+    border: 1px solid #4E47FF;
     border-radius: 10px;
     transition: .5s;
 }
