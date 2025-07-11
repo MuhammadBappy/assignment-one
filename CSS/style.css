@@ -32,10 +32,14 @@ a{
 }
 
 .logo{
-    text-shadow: 0 0 3px #4E47FF;
     color: #4E47FF;
     font-weight: 900;
     font-size: 25px;
+    transition: .5s;
+}
+
+.logo:hover{
+    text-shadow: 0 0 3px #7873fc;
 }
 
 .sign-btn{
@@ -72,6 +76,10 @@ a{
     color: white;
     border: 2px solid #4E47FF;
     border-radius: 10px;
+    transition: .5s;
+}
+
+.focus a:hover{
     box-shadow: 0 0 8px #4E47FF;
 }
 
@@ -97,10 +105,13 @@ a{
     color: white;
     border: 2px solid #4E47FF;
     border-radius:10px;
-    box-shadow: 0 0 8px #4E47FF;
     font-size: 20px;
     padding: 8px 28px;
-    /* margin-top: 10px; */
+    transition: .5s;
+}
+
+.action-texts a:hover{
+    box-shadow: 0 0 8px #4E47FF;
 }
 
 .action{
@@ -232,6 +243,11 @@ a{
     border-radius: 10px;
     color: white;
     padding: 10px;
+    transition: .5s;
+}
+
+.goal-btn a:hover{
+    box-shadow: 0 0 10px #4E47FF;
 }
 
 .goal-pic img{
@@ -290,6 +306,11 @@ font div input , .email, .name, .message{
     font-size: 17px;
     padding: 10px 0;
     border-radius: 10px;
+    transition: .5s;
+}
+
+.form-btn a:hover{
+    box-shadow: 0 0 10px #4E47FF;
 }
 
 footer{
